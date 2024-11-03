@@ -1,0 +1,27 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+ 
+    <link rel="stylesheet" href="https://pyscript.net/alpha/pyscript.css" />
+    <script defer src="https://pyscript.net/alpha/pyscript.js"></script>
+ 
+    <title>PyScript Demo</title>
+</head>
+<body>
+    <py-script>
+        name = "aniketshinde"
+        freq = {}
+        for a in name:
+            key = freq.keys()
+            if a in key:
+                freq[a] += 1
+            else:
+                freq[a] = 1
+ 
+        for s in freq:
+            print(f"{s} : {freq[s]}")
+    </py-script>
+</body>
+</html>
